@@ -1,0 +1,27 @@
+{
+  "name": "shared-task-memory",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "JSON task memory for decisions and prior attempts. Never store secrets.",
+  "main": "shared-task-memory.js",
+  "exports": {
+    ".": "./shared-task-memory.js"
+  },
+  "files": [
+    "shared-task-memory.js",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "agents",
+    "reliability",
+    "verification",
+    "shared-task-memory"
+  ],
+  "license": "MIT"
+}
